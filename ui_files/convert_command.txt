@@ -1,0 +1,1 @@
+pyside2-uic .\change_ip.ui -o .\change_ip.py
