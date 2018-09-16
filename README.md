@@ -15,3 +15,5 @@ See example screenshot below:
 * "Set Config" - Runs the commands that changes your chosen network adapters IP/Mask/GW to what you have chosen.
 * "Show Current Config" - Prints current adapter IP
 * "Quit" - Exits the software
+
+[Download Windows Executable here](https://github.com/Headknot/change_ip/blob/master/bin/change_ip.exe)
