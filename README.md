@@ -8,9 +8,10 @@ The GUI was made with QT/Pyside2 and the actual changing of IP is done via netsh
 I have uploaded an .exe of the software in the repo, but please remember to start it as administrator, or you will not have sufficient permission to change parameters via netsh.
 
 See example screenshot below:
+
 ![Example screenshot](https://github.com/Headknot/change_ip/blob/master/screenshots/change_ip.PNG)
 
-"Clear" - clears all of your fields
-"Set Config" - Runs the commands that changes your chosen network adapters IP/Mask/GW to what you have chosen.
-"Show Current Config" - Prints current adapter IP
-"Quit" - Exits the software
+* "Clear" - clears all of your fields
+* "Set Config" - Runs the commands that changes your chosen network adapters IP/Mask/GW to what you have chosen.
+* "Show Current Config" - Prints current adapter IP
+* "Quit" - Exits the software
