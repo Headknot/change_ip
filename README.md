@@ -16,4 +16,4 @@ See example screenshot below:
 * "Show Current Config" - Prints current adapter IP
 * "Quit" - Exits the software
 
-[Download Windows Executable here](https://github.com/Headknot/change_ip/blob/master/bin/change_ip.exe)
+[Download Windows Executable here](https://github.com/Headknot/change_ip/blob/master/bin/change-ip.exe)
