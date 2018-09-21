@@ -1,4 +1,6 @@
-# change_ip
+# ![Icon](ui_files/change_ip.png)change_ip
+
+
 
 change_ip is a tool for changing network adapter IP, Mask & Gateway in a Windows environment.
 The need came out of the minor annoyance of clicking through "change adapter options" every time you need to change IP.
@@ -16,4 +18,4 @@ See example screenshot below:
 * "Show Current Config" - Prints current adapter IP
 * "Quit" - Exits the software
 
-[Download Windows Executable here](https://github.com/Headknot/change_ip/blob/master/bin/change-ip.exe)
+[Download Windows Executable here](bin/change-ip.exe)
