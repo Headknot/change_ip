@@ -9,11 +9,11 @@ I have uploaded an .exe of the software in the repo, but please remember to star
 
 See example screenshot below:
 
-![Example screenshot](https://github.com/Headknot/change_ip/blob/master/screenshots/change_ip.PNG)
+![Example screenshot](https://github.com/Headknot/change_ip/blob/master/screenshots/screenshot_1.PNG)
 
 * "Clear" - clears all of your fields
 * "Set Config" - Runs the commands that changes your chosen network adapters IP/Mask/GW to what you have chosen.
 * "Show Current Config" - Prints current adapter IP
 * "Quit" - Exits the software
 
-[Download Windows Executable here](https://github.com/Headknot/change_ip/blob/master/bin/change_ip.exe)
+[Download Windows Executable here](https://github.com/Headknot/change_ip/blob/master/bin/change-ip.exe)
