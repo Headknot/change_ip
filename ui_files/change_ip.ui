@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>change_ip</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>change_ip.png</normaloff>change_ip.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_3">

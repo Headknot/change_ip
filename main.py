@@ -110,13 +110,6 @@ class MainWindow(QMainWindow, change_ip.Ui_MainWindow):
         ip = current_config_splitted[3].split(" ")
         ip = ip[-1]
 
-        #mask = current_config_splitted[4].split(" ")
-        #mask = mask[-1]
-        #mask = mask[:-1]
-
-        #gw = current_config_splitted[5].split(" ")
-        #gw = gw[-1]
-
         self.textEdit.append("Info - Current adapter IP: {}".format(ip))
 
     def clear(self):

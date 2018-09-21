@@ -1,0 +1,5 @@
+#Convert .ui file to .py:
+pyside2-uic .\change_ip.ui -o .\change_ip.py
+
+#Generate .exe file
+pyinstaller --noconsole --icon=ui_files\change_ip.ico -F main.py

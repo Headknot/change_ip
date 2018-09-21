@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file '.\change_ip.ui',
 # licensing of '.\change_ip.ui' applies.
 #
-# Created: Sun Aug 12 23:25:15 2018
+# Created: Fri Sep 21 23:48:30 2018
 #      by: pyside2-uic  running on PySide2 5.11.0
 #
 # WARNING! All changes made in this file will be lost!
@@ -14,6 +14,9 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(400, 500)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("change_ip.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayout_3 = QtWidgets.QVBoxLayout(self.centralwidget)
@@ -113,7 +116,7 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QtWidgets.QApplication.translate("MainWindow", "MainWindow", None, -1))
+        MainWindow.setWindowTitle(QtWidgets.QApplication.translate("MainWindow", "change_ip", None, -1))
         self.groupBox_2.setTitle(QtWidgets.QApplication.translate("MainWindow", "Change IP", None, -1))
         self.QLabel_interface.setText(QtWidgets.QApplication.translate("MainWindow", "Interface", None, -1))
         self.QLabel_template.setText(QtWidgets.QApplication.translate("MainWindow", "Template", None, -1))
